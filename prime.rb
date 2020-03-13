@@ -1,7 +1,10 @@
 def prime?(num)
-  answer == Prime.each(100) do |prime|
-    if num = answer
-      true
-    else
-      false
+  if num > 1
+    range = (2..number-1).to_a 
+    range.none? do |test|
+      num % test == 0
+    end
+  else
+    FALSE
+  end
 end

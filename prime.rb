@@ -1,6 +1,7 @@
-def prime?(num)
-  if num > 1
-    range = (2..number-1).to_a 
+def prime?(number)
+  two = 2
+  if number > 1
+    range = (two..number-1).to_a 
     range.none? do |test|
       num % test == 0
     end
